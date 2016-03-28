@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/GameplayControlTestScene.unity
+- path: Assets/Scenes/TEST_EnemyAI.unity
   isLoaded: 1
   isActive: 1

@@ -16,9 +16,9 @@ public class DerivedEnemy : BaseEnemyClass
     public float fovRadius;
 
     private string state;
-    
+
     public GameObject[] waypoints;
-    
+
     private int currentWP = 0;
     public float rotationSpeed;
     public float speed;
@@ -33,15 +33,15 @@ public class DerivedEnemy : BaseEnemyClass
         DIE
     };
 
-	void Start ()
+    void Start()
     {
         eTransform = GetComponent<Transform>();
         anim = GetComponent<Animator>();
 
         state = "patrol";
-	}
+    }
 
-	void Update ()
+    void Update()
     {
         // Set enemy look direction
         Vector3 direction = pTransform.position - eTransform.position;
@@ -65,7 +65,7 @@ public class DerivedEnemy : BaseEnemyClass
             // Finally, setting the state to patrolling
             state = "patrol";
         }
-	}
+    }
 
     private void Chase(Vector3 direction, float angle)
     {

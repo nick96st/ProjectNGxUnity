@@ -4,3 +4,14 @@ E:/Programs Dev/Unity3d/Editor/Data/Managed/UnityEngine.dll
 E:/Programs Dev/Unity3d/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
 E:/Programs Dev/Unity3d/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 E:/Programs Dev/Unity3d/Editor/Data/Managed/UnityEditor.dll
+E:/Programs Dev/Unity3d/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll
+E:/Programs Dev/Unity3d/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll
+E:/Programs Dev/Unity3d/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll
+E:/Programs Dev/Unity3d/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll
+E:/Programs Dev/Unity3d/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll
+E:/Programs Dev/Unity3d/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll
+E:/Programs Dev/Unity3d/Editor/Data/Managed/UnityEditor.Graphs.dll
+E:/Programs Dev/Unity3d/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+E:/Programs Dev/Unity3d/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+E:/Programs Dev/Unity3d/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/2015/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll

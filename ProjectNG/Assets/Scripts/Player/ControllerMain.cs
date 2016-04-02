@@ -26,7 +26,7 @@ public class ControllerMain : MonoBehaviour {
 	void Update () 
 	{    mousePos = Input.mousePosition;
 		 mouseRay = Camera.main.ScreenPointToRay (mousePos);
-			if(Input.GetMouseButtonDown(0))
+			if(Input.GetMouseButtonDown(0))//left mouse button
 		{
             Debug.Log(spawnedUI);
 			if(!EventSystem.current.IsPointerOverGameObject()) // blocks click on overlaying UI with object
@@ -90,7 +90,20 @@ public class ControllerMain : MonoBehaviour {
                     }
                 }
 
+           
+
 			}
+		}// if Mouse(0) if end 
+
+
+		//Move with rightclick
+		if (Input.GetMouseButtonDown (1)) {
+			GameObject.Find ("Character").GetComponent<MoveCurveY> ().enabled = true;
+			Debug.Log ("Jumping");
+			EventManager.TriggerEvent ("jump");
+
+
 		}
+
 	}
 }

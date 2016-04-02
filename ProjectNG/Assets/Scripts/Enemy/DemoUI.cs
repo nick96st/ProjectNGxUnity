@@ -8,7 +8,7 @@ public class DemoUI : MonoBehaviour
     
     void Start()
     {
-        Invoke("DisablePanel", 10.0f);
+        Invoke("DisablePanel", 3.0f);
     }
 
     public void DisablePanel()
